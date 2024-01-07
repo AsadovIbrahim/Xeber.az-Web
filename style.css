@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Plus+Jakarta+Sans:wght@200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Raleway:wght@300;400;500&family=Sulphur+Point:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 30px 78px;
+    flex-wrap: wrap;
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 260px;
+}
+
+
+nav .right-section{
+    display: flex;
+    align-items: center;
+    gap: 57px;
+}
+
+
+nav .right-section p{
+    text-transform: uppercase;
+    display: flex;
+}
+nav .right-section .az{
+    display: flex;
+}
+nav .degree{
+    vertical-align: super;
+}
+nav .right-section .arrow-img{
+    width: 10px;
+}
+nav .right-section div{
+    display: flex;
+    align-items: center;
+}
+.second-navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.category-section{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-left: 5px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    text-align: center;
+    width: max-content;
+    justify-content: space-between;
+    gap: 280px;
+    
+
+}
+.category-section .left-section{
+    padding-top: 5px;
+}
+
+.category-section ul{
+    display: flex;
+    list-style: none;
+    gap: 41px;
+    align-items: center;
+}
+
+.category-section a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+
+.category-section .esas-sehife{
+    text-decoration: underline 2px #1F9CC4E5;
+}
+
+.right-section .bookmark,.bellmavi,.account{
+    width: 20px;
+}
+
+.category-section .search-section{
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    padding-right: 48px;
+    width: 182px;
+    border-radius: 4px;
+    background-color: #E2E2E2;
+}
+.category-section .search-section input{
+    outline: none;
+    border-radius: 4px;
+    background: #E2E2E2;
+    padding-left: 7px;
+    border: none;
+    height: 35px;    
+    background: url(SVGS/search.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+.body-header .cards{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0px 48px;
+    justify-content: center;
+    margin-bottom: 33px;
+    width: 100%;
+
+}
+
+.body-header .cards .left-card{
+    color: #fff;
+    background:url(Images/herbi.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 382px;
+}
+
+.body-header .left-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.body-header .cards .left-card-container .left-card .left-card-texts{
+    display: inline-block;
+    margin-top: 250px;
+}
+
+.body-header .cards .left-card .left-card-texts{
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    gap: 10px;
+    padding: 4px 12px;
+}
+
+
+.body-header .cards .left-card .herbi-border{
+    width: 71px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 31px;
+    border: 2px solid #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.body-header .cards .left-card .header-card p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+    letter-spacing: -0.528px;
+}
+.body-header .cards .left-card .card-end-text{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+
+}
+
+.body-header .cards .left-card .card-end-text img{
+    width: 2px;
+    height: 2px;  
+    flex-shrink: 0;
+
+}
+
+.body-header .cards .right-card{
+    background-image: url(Images/qebele-futbol.jpg);
+    background-size: cover;
+    align-items: center;
+    color: #fff;
+    width: 300px;
+    height: 188px;
+}
+
+.body-header .cards .right-card .right-card-texts{
+    display: flex;
+    display: inline-block;
+    margin-top: 90px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 4px 12px;
+}
+.body-header .cards .right-card .right-card-texts .border{
+    font-size: 12px;
+    width: 56px;
+    height: 24px;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 4px;
+    border: 1.5px solid #FFF;
+    display: inline-flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.body-header .cards .right-card .right-card-texts .header-card p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -0.396px;
+    color: #fff;
+}
+.body-header .cards .right-card-container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 5px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+
+.body-header .cards .right-card1{
+    background-image: url(Images/Musk.jpg);
+    background-size: cover;
+    align-items: center;
+    width: 300px;
+    height: 188px;
+    color: #fff;
+}
+
+.body-header .cards .right-card1 .right-card-texts{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    margin-top: 90px;
+    gap: 10px;
+    padding: 4px 12px;
+}
+.body-header .cards .right-card1 .right-card-texts .border{
+    font-size: 12px;
+    width: 56px;
+    height: 24px;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 4px;
+    border: 1.5px solid #FFF;
+    display: inline-flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:0px;
+    gap: 10px;
+}
+.body-header .cards .right-card1 .right-card-texts .header-card p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -0.396px;
+    color: #fff;
+}
+
+
+
+
+.body-header .cards .right-card2{
+    background-image: url(Images/Venesuela-yagis.jpg);
+    background-size: cover;
+    align-items: center;
+    width: 300px;
+    height: 188px;
+    color: #fff;
+}
+
+.body-header .cards .right-card2 .right-card-texts{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    margin-top: 90px;
+    gap: 10px;
+    padding: 4px 12px;
+}
+.body-header .cards .right-card2 .right-card-texts .border{
+    font-size: 12px;
+    width: 56px;
+    height: 24px;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 4px;
+    border: 1.5px solid #FFF;
+    display: inline-flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:0px;
+    gap: 10px;
+}
+.body-header .cards .right-card2 .right-card-texts .header-card p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -0.396px;
+    color: #fff;
+}
+
+
+.body-header .cards .right-card3{
+    background-image: url(SVGS/yagis.svg);
+    background-size: cover;
+    align-items: center;
+    width: 300px;
+    height: 188px;
+    color: #fff;
+}
+
+.body-header .cards .right-card3 .right-card-texts{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    margin-top: 90px;
+    gap: 10px;
+    padding: 4px 12px;
+}
+.body-header .cards .right-card3 .right-card-texts .border{
+    font-size: 12px;
+    width: 56px;
+    height: 24px;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 4px;
+    border: 1.5px solid #FFF;
+    display: inline-flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:0px;
+    gap: 10px;
+}
+.body-header .cards .right-card3 .right-card-texts .header-card p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -0.396px;
+    color: #fff;
+}
+
+
+.second-section{
+    padding: 0px 48px;
+}
+/* 
+.second-section-cards-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns:1fr 1fr;
+    gap: 5px;
+
+} */
+
+.second-section-cards-container{
+    display: flex;
+}
+.second-section .second-section-cards{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+    gap: 6px;
+}
+
+.second-section .second-section-card-header-text{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: -0.528px;
+}
+
+.second-section .end-text{
+    display: flex;
+    align-items: center;
+
+}
+.second-section .end-text img{
+    width: 2px;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: #000;
+}
+
+.second-section .end-text .end-text-container{
+    display: flex;
+    gap: 190px;
+}
+
+.second-section .end-text .end-text-container div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
